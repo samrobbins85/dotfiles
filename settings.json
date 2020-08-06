@@ -1,0 +1,25 @@
+{
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "go.formatTool": "goimports",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "\"Jetbrains Mono\", 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.formatting.provider": "black",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.renameOnType": true,
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "right"
+}
