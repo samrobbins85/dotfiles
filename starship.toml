@@ -1,0 +1,82 @@
+format = """
+$username\
+$hostname\
+$shlvl\
+$git_branch\
+$git_commit\
+$git_state\
+$hg_branch\
+$docker_context\
+$package\
+$cmake\
+$dart\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$golang\
+$helm\
+$java\
+$julia\
+$kotlin\
+$nim\
+$nodejs\
+$ocaml\
+$perl\
+$php\
+$purescript\
+$python\
+$ruby\
+$rust\
+$swift\
+$terraform\
+$vagrant\
+$zig\
+$nix_shell\
+$conda\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$env_var\
+$crystal\
+$custom\
+$cmd_duration\
+$kubernetes\
+$line_break\
+$directory\
+$lua\
+$jobs\
+$battery\
+$time\
+$git_status\
+$status\
+$character"""
+
+[nodejs]
+disabled = true
+
+[git_branch]
+style="bold #b48ead"
+format="[$symbol$branch]($style) "
+
+[git_status]
+conflicted = "🏳"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+untracked = "🤷‍"
+stashed = "📦"
+modified = "📝"
+staged = '[++\($count\)](green)'
+renamed = "👅"
+deleted = "🗑"
+style = "bold #b48ead"
+
+[package]
+style = "bold #d08770"
+format="[$symbol$version]($style) "
+
+[aws]
+disabled = true
+
